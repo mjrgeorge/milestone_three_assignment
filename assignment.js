@@ -39,7 +39,6 @@ function brickCalculator(n) {
         if (currentFloor <= 10) {
             floorConditionOne = floorConditionOne + 15;
         } else if (currentFloor <= 20 && currentFloor > 10) {
-            currentFloor = 1;
             floorConditionTwo = floorConditionTwo + 12;
         } else {
             floorConditionThree = floorConditionThree + 10;
